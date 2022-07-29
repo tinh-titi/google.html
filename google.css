@@ -1,0 +1,124 @@
+html, body {
+    margin: 0px;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header > a {
+    color: rgba(0,0,0,.87);
+    margin: 0px 7px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+header > a:hover {
+    text-decoration: underline;
+}
+header > svg {
+    width: 24px;
+    /* margin: 0px 7px; */
+    padding: 8px;
+}
+header > svg:hover {
+    background-color: rgba(60,64,67,.08);
+    border-radius: 100%;
+}
+.avatar {
+    width: 32px;
+    /* margin: 0px 7px; */
+    border-radius: 50%;
+    padding: 5px;
+}
+.avatar:hover {
+    background-color: rgba(60,64,67,.08);
+    border-radius: 50%;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.google-img {
+    width: 272px;
+    height: 92px;
+    padding: 150px 0px 0px 0px;
+}
+.search {
+    width: 584px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    height: 44px;
+    /* border-color: rgb(177, 169, 169) !important; */
+    margin: 20px 0px 10px 0px;
+    /* border-width: 1px !important; */
+    /* border-style: solid; */
+}
+.search:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+    background-color: #fff;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    height: 36px;
+    padding: 18px;
+}
+button {
+    margin: 0px 10px 0px 10px;
+    border-radius: 6px;
+    border: darkgray;
+    background-color: #f8f9fa;
+}
+.languages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    font-style: normal;
+    padding: 18px 18px 79px 18px;
+}
+.languages > a {
+    text-decoration: none;
+    margin: 0 3px;
+}
+.languages > a:hover {
+    text-decoration: underline;
+}
+.vietnam {
+    font-size: 15px;
+    color: #70757a;
+    padding: 15px 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #dadce0;
+    background-color: #f2f2f2;
+}
+.bottom {
+    font-size: 14px;
+    color: #70757a;
+    padding: 15px 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom * a {
+    text-decoration: none;
+    /* display: flex; */
+    /* align-items: center; */
+    padding: 15px;
+}
+.bottom-left > a:hover {
+    text-decoration: underline;
+}
+.bottom-right > a:hover {
+    text-decoration: underline;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
